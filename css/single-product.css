@@ -52,7 +52,8 @@
 }
 
 .product-short-info{
-    width: 424px; text-align: justify
+    width: 100%; 
+    text-align: justify
 }
 
 .price{
@@ -70,6 +71,94 @@
 
 .rate i{
     color: yellow;
+}
+
+.size-selection, .color-selection, .buttons, .sub-info{
+    display: flex;
+    gap: 12px;
+}
+
+.size{
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--light-be-2);
+}
+
+.size:first-child{
+    background-color: var(--brown);
+    color: white;
+}
+
+.color{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.color:hover, .size:hover{
+    cursor: pointer;
+}
+
+
+.size p{
+    font-size: 13px;
+}
+h5{
+    color: var(--gray);
+}
+
+.add-to-cart, .compare {
+    height: 64px;
+    border-radius: 15px;
+    width: 215px;
+    background-color: white;
+    border: 1px solid var(--black);
+}
+
+.number{
+    width: 123px;
+    height: 64px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid var(--black);
+}
+
+.number button{
+    background-color: white;
+    border: none;
+}
+
+.divider{
+    width: 100%;
+    height: 1px;
+    background-color: var(--light-gray-2);
+}
+
+.sub-field-1{
+    width: 80px;
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    align-items: center;
+}
+
+.sub-data-1{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    color: var(--gray);
+}
+
+.sub-data-1 i{
+    color: black;
+    margin-right: 12px;
+    
 }
 
 @media only screen and (max-width: 768px){

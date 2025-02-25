@@ -105,7 +105,7 @@
 .product-item{
     width: 285px;
     height: 450px;
-    background-color: var(--gray);
+    background-color: var(--light-gray);
     display: flex;
     flex-direction: column;
     gap: 20px;

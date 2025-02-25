@@ -11,7 +11,8 @@
 /* header */
 header{
     background-color: var(--white);
-    width: 100%;
+    width: 90%;
+    margin: 0 auto;
     height: 100px;
     display: flex;
     justify-content: space-between;
@@ -34,6 +35,14 @@ header nav ul{
     align-items: center;
     width: 100%;
     list-style: none;
+}
+
+.action-btn{
+    width: 240px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 #menu-btn{
